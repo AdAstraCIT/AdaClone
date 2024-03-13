@@ -108,9 +108,8 @@ const SettingsListItem: React.FC<SettingsListItemProps> = ({ fontSize, selectedO
 				<div className='whitespace-nowrap'>{fontSize}</div>
 			</div>
 			<span
-				className={`text-blue dark:text-dark-blue flex items-center pr-2 ${
-					selectedOption === fontSize ? "visible" : "invisible"
-				}`}
+				className={`text-blue dark:text-dark-blue flex items-center pr-2 ${selectedOption === fontSize ? "visible" : "invisible"
+					}`}
 			>
 				<BsCheckLg />
 			</span>
